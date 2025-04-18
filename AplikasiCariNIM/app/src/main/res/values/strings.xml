@@ -6,7 +6,13 @@
     <string name="text_hasil">Hasil akan ditampilkan di sini</string>
     <string name="warning_input">Harap masukkan Nama dan NIM!</string>
     <string name="result_text">Nama: %1$s\nNIM: %2$s</string>
-    <string name="Hapus">Hapus</string>
+    <string name="Hapus">Hapus Data</string>
     <string name="Perbarui">Perbarui</string>
+    <string name="Tambah">Tambah</string>
+    <string name="buka_web">Buka Halaman Web</string>
+    <string name="buka_dokumen">Buka Dokumen PDF</string>
+    <string name="buka_aplikasi">Buka Aplikasi Lain</string>
+    <string name="buka_NIM">Aplikasi NIM</string>
+    <string name="buka_Web_Dokumen">Aplikasi Web Dokumen</string>
 
 </resources>
