@@ -8,7 +8,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class HalamanAwal extends AppCompatActivity {
 
-    Button btnNIM, btnBukaWebDokumen;
+    Button btnNIM, btnBukaWebDokumen, btnbukaDariAPI, btnBukaCamera ;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -17,6 +17,8 @@ public class HalamanAwal extends AppCompatActivity {
 
         btnNIM = findViewById(R.id.btnNIM);
         btnBukaWebDokumen = findViewById(R.id.btnBukaWebDokumen);
+        btnbukaDariAPI = findViewById(R.id.btnBukaDariAPI);
+        btnBukaCamera = findViewById(R.id.btnBukaCamera);
 
         // Buka Aplikasi NIM
         btnNIM.setOnClickListener(v -> {
@@ -26,6 +28,16 @@ public class HalamanAwal extends AppCompatActivity {
         // Buka Aplikasi NIM
         btnBukaWebDokumen.setOnClickListener(v -> {
             startActivity(new Intent(HalamanAwal.this, BukaWebDokumen.class));
+        });
+
+        // Buka Aplikasi NIM
+        btnbukaDariAPI.setOnClickListener(v -> {
+            startActivity(new Intent(HalamanAwal.this, BukaDariAPI.class));
+        });
+
+        // Buka Aplikasi NIM
+        btnBukaCamera.setOnClickListener(v -> {
+            startActivity(new Intent(HalamanAwal.this, BukaCamera.class));
         });
 
     }

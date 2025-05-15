@@ -14,5 +14,7 @@
     <string name="buka_aplikasi">Buka Aplikasi Lain</string>
     <string name="buka_NIM">Aplikasi NIM</string>
     <string name="buka_Web_Dokumen">Aplikasi Web Dokumen</string>
+    <string name="buka_Dari_API">Data dari API</string>
+    <string name="buka_Camera">Camera</string>
 
 </resources>

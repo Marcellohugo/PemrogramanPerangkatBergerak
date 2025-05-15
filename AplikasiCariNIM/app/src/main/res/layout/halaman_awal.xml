@@ -20,4 +20,18 @@
         android:text="@string/buka_Web_Dokumen"
         android:layout_marginTop="16dp" />
 
+    <Button
+        android:id="@+id/btnBukaDariAPI"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/buka_Dari_API"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/btnBukaCamera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/buka_Camera"
+        android:layout_marginTop="16dp" />
+
 </LinearLayout>
